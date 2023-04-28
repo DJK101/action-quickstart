@@ -1,8 +1,8 @@
-name: GitHub Actions Demo
-run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+name: DJs First Workflow
+run-name: ${{ github.actor }} is the hottest MF this side of the south-west
 on: [push]
 jobs:
-  Explore-GitHub-Actions:
+  Hello-World:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Hello World!"
